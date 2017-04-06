@@ -14,4 +14,28 @@
     -webkit-box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
-}cd ..
+}
+form.zapis{
+    border: solid 4px;
+    border-color: #219f94;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #5bb5ad;
+    background-size: cover;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 14px;
+}
+
+div input[type="text"]{
+    border-color: #219f94;
+    border-radius: 4px;
+    width: 40%;
+    padding: 6px 14px;
+    margin: 8px 0;
+    box-sizing: border-box
+
+}
+div input[type="button"]{
+    margin: 10px;
+}
