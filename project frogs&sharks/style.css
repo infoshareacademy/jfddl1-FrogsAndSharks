@@ -196,3 +196,110 @@ footer {
     color: #ffffff;
     text-decoration: none;
 }
+/**************************************
+     STYLE DO SEKCJI FUNKCJE, NIE RUSZAĆ BO MOŻE COŚ SIĘ ZJEBAĆ, A TEGO BYŚMY NIE CHCIELI :)
+     *************************************/
+
+#third-section   {
+    background-image: url("image/wallpaper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    position: relative
+}
+
+.diet   {
+    width: 30%;
+    height: 50%;
+    background-color: #117f6e;
+    color: #000000;
+    background-position: top left;
+    opacity: 0.85;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.diet:hover  {
+    background-color: #717171;
+    color: #ffffff;
+    width: 45%;
+    height: 65%;
+    font-size: 1.2em;
+}
+
+.workout    {
+    width: 30%;
+    height: 50%;
+    background-color: #117f6e;
+    color: #000000;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    opacity: 0.85;
+}
+
+.workout:hover  {
+    background-color: #717171;
+    color: #ffffff;
+    width: 48%;
+}
+
+.tips   {
+    width: 30%;
+    height: 50%;
+    background-color: #12b7a5;
+    color: #000000;
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    opacity: 0.85;
+}
+
+.tips:hover {
+    background-color: #717171;
+    color: #000000;
+    font-size: 1.2em;
+    width: 45%;
+
+}
+
+.child  {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.button_check_us {
+    background-color: transparent;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color:#000000;
+    font-family: Arial;
+    font-size: 17px;
+    margin-top: 5vh;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.func_text  {
+    font-size: 1em;
+}
+.button_check_us:hover {
+    background-color:transparent;
+    border-top: 2px solid #fff900;
+    border-bottom: 2px solid #fff900;
+}
+
+.button_check_us:active {
+    position: relative;
+    top:2px;
+}
+/***********************************
+ TU JE KUNIEC STYLÓW DO SEKCJI FUNKCJEEEEE
+ **********************************/
