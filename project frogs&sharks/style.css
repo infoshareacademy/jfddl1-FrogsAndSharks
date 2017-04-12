@@ -222,14 +222,6 @@ footer {
     top: 0%;
 }
 
-.diet:hover  {
-    background-color: #717171;
-    color: #ffffff;
-    width: 45%;
-    height: 65%;
-    font-size: 1.2em;
-}
-
 .workout    {
     width: 30%;
     height: 50%;
@@ -239,12 +231,6 @@ footer {
     right: 0%;
     top: 0%;
     opacity: 0.85;
-}
-
-.workout:hover  {
-    background-color: #717171;
-    color: #ffffff;
-    width: 48%;
 }
 
 .tips   {
@@ -258,20 +244,6 @@ footer {
     opacity: 0.85;
 }
 
-.tips:hover {
-    background-color: #717171;
-    color: #000000;
-    font-size: 1.2em;
-    width: 45%;
-
-}
-
-.child  {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
 
 .button_check_us {
     background-color: transparent;
