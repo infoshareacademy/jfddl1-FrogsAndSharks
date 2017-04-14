@@ -1,198 +1,97 @@
-* {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    /*wstawić fonta na pewno */
-}
-
-nav {
-    width: 100%;
-    height: auto;
-    background-color: #ffffff;
-    position: fixed;
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    z-index: 10;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-}
-
-.logo {
-    padding-right: 40px;
-    opacity: 1;
-}
-
-
-nav a {
-    position: relative;
-    display: inline-block;
-    margin: 5px 15px;
-    outline: none;
-    color: #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 40;
-    text-shadow: 0 0 1px rgba(255,255,255,0.3);
-}
-
-nav a:hover,
-nav a:focus {
-    outline: none;
-}
-
-.navigation a {
-    padding-top: 30px;
-}
-
-.navigation a::after {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background: #000000;
-    content: '';
-    opacity: 0;
-    -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-    -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
-    transition: height 0.3s, opacity 0.3s, transform 0.3s;
-    -webkit-transform: translateY(-10px);
-    -moz-transform: translateY(-10px);
-    transform: translateY(-10px);
-}
-
-.navigation a:hover::after,
-.navigation a:focus::after {
-    height: 5px;
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    transform: translateY(0px);
-}
-
-.section {
-    padding-top: 90px;
-
-}
-
-#first-section {
-    background-image: url("image/background-sec-1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: fixed;
-    padding-bottom: 300px;
-
-}
-
-.home-page-description {
-    height: auto;
-    width: 50%;
-    padding: 20px;
+.teamsec{
+    background-image: url("image/exa.png");
     color: #ffffff;
-    margin-top: 160px;
-    margin-left: 80px;
-
 }
 
-.home-page-description h1 {
-    border-bottom: 10px solid #32a095;
-}
 
-.home-page-description p {
-    padding-top: 30px;
-}
-
-.buttons {
-    padding-top: 40px;
-}
-
-#second-section {
-    background-image: url("image/background-section2.jpg")
-}
-
-.benefits-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.benefits-items {
-    height: 300px;
-    width: 200px;
-    padding: 50px 50px;
-    color: #ffffff;
+h1 {
     text-align: center;
+    margin-bottom: 3%;
+    font-size: 50px;
+
+}
+h2 {
+    font-size: 25px;
+}
+.tile{
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;
+    background-color: rgba(147, 112, 219, 0.6);
+    margin-bottom: 10%;
+    font-size: 16px;
+
 }
 
-.benefits-items img {
-    padding-top: 15px;
+.tile:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+    width: 110%;
+    transition background: 3s;
 }
 
-.benefits-items h3 {
-    padding-top: 20px;
+.tile img{
+    width: 100%;
 }
+/*Tutaj zaczynaja sie cssy do formularza*/
 
-
-.circle {
-    border-radius: 100%;
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#circle1 {
-    background-color: #00C878;
-}
-
-#circle2 {
-    background-color: #009BD8;
-}
-
-#circle3 {
-    background-color: #FACC51;
-}
-
-#circle4 {
-    background-color: #E3763A;
-}
-
-.button-1 {
-    background-color: #000000;
-    opacity: 0.5;
+.backg{
+    background-image: url("image/training.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
     color: #ffffff;
-    border: 0;
-    padding: 20px;
-    border-radius: 4px;
 }
 
-.button-1:hover {
-    opacity: 0.7;
+.backgcol{
+    background-color: rgba(91, 181, 173, 0.5);
+
 }
 
-.button-2 {
-    background-color: #a83e66;
-    opacity: 0.7;
+.header1 {
+    font-size: 50px;
+    font-style: italic;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.texth1{
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.quote{
+    background-color: #ffffff;
+    font-size: 25px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+    color: #000000;
+    text-align: center;
+    max-width: 100%;
+}
+
+
+.zapis{
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 12px 20px 50px 30px;
+    height: auto
     color: #ffffff;
-    border: 0;
-    padding: 20px;
-    border-radius: 4px;
+    font-size: larger;
+    float: left;
+    margin-top: -320px;
+}
+.h11{
+    font-size: 30px;
+    text-align: left;
 }
 
-.button-2:hover {
-    opacity: 0.9;
-}
-
-footer {
-    background-color: #43b106;
+.formbg {
     color: #ffffff;
-    text-decoration: none;
+    text-align: left;
+}
+
+btn btn-default{
+    background-color: #219f94;
+    border: none;
+    transition: background 1s;
 }
