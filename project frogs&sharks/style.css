@@ -6,7 +6,8 @@ body {
 }
 
 [class*="col-"] {
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 ul.nav.navbar-nav {
@@ -81,7 +82,7 @@ ul.nav.navbar-nav {
 }
 
 .home-description {
-    padding-top: 30vh;
+    padding-top: 25vh;
     padding-bottom: 20vh;
 }
 
