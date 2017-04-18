@@ -5,10 +5,7 @@ body {
     font-family: Roboto;
 }
 
-[class*="col-"] {
-    padding-left: 0;
-    padding-right: 0;
-}
+
 
 ul.nav.navbar-nav {
     float: right;
@@ -172,6 +169,11 @@ ul.nav.navbar-nav {
 @media(max-width: 768px) {
     ul.nav.navbar-nav {
         float: none;
+    }
+
+    [class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
