@@ -4,7 +4,41 @@ body {
     padding: 0;
     font-family: Roboto;
 }
+.teamsec{
+    background-image: url("image/exa.png");
+    color: #ffffff;
+}
 
+
+h1 {
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 50px;
+
+}
+h2 {
+    font-size: 25px;
+}
+.tile{
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;
+    background-color: rgba(147, 112, 219, 0.6);
+    margin-bottom: 10%;
+    font-size: 16px;
+
+}
+
+.tile:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+    width: 110%;
+    transition background: 3s;
+}
+
+.tile img{
+    width: 100%;
+}
+/*Tutaj zaczynaja sie cssy do formularza*/
 
 
 ul.nav.navbar-nav {
@@ -70,6 +104,8 @@ ul.nav.navbar-nav {
     min-height: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+.backg{
+    background-image: url("image/training.jpeg");
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
@@ -95,6 +131,7 @@ ul.nav.navbar-nav {
 
 .home-description h1 {
     text-transform: uppercase;
+    background-attachment: fixed;
     color: #ffffff;
     font-family: Roboto;
     font-weight: 800;
@@ -104,6 +141,8 @@ ul.nav.navbar-nav {
     background-color: #32a095;
     border: none;
 }
+.backgcol{
+    background-color: rgba(91, 181, 173, 0.5);
 
 #home-button-left:hover {
     animation:buttonanimation 1s;
@@ -113,16 +152,33 @@ ul.nav.navbar-nav {
 #home-button-right {
     background-color: #761b61;
     border: none;
+.header1 {
+    font-size: 50px;
+    font-style: italic;
+    text-align: left;
+    text-transform: capitalize;
 }
 
 #home-button-right:hover {
     background-color: #a42687;
     border: none;
+.texth1{
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-size: 20px;
 }
 
 .first-section {
+.quote{
+    background-color: #ffffff;
+    font-size: 25px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+    color: #000000;
     text-align: center;
     padding-top: 5vh;
+    max-width: 100%;
 }
 
 .first-section h1 {
@@ -164,17 +220,31 @@ ul.nav.navbar-nav {
 .glyphicon{
     font-size: 60px;
     padding-top: 20px;
+.zapis{
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 12px 20px 50px 30px;
+    height: auto
+    color: #ffffff;
+    font-size: larger;
+    margin-top: -320px;
 }
 
 @media(max-width: 768px) {
     ul.nav.navbar-nav {
         float: none;
     }
+.h11{
+    font-size: 30px;
+    text-align: left;
+}
 
     [class*="col-"] {
         padding-left: 0;
         padding-right: 0;
     }
+.formbg {
+    color: #ffffff;
+    text-align: left;
 }
 
 @-webkit-keyframes logoanimation {
@@ -190,6 +260,9 @@ ul.nav.navbar-nav {
     30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);}
     40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);}
     100% {transform: scale(1) rotate(0);}
+.form-control{
+    border: none;
+    border-radius: 0%;
 }
 
 @-webkit-keyframes buttonanimation {
@@ -217,4 +290,16 @@ ul.nav.navbar-nav {
     80% { transform: skewX(1deg); }
     90% { transform: skewX(0deg); }
     100% { transform: skewX(0deg); }
+.btn {
+    background-color: #219f94;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    font-size: larger;
+    transition: background 1s;
+    color: #ffffff;
+    border-radius: 0%;
+}
+.btn:hover{
+    background-color: #ff0000;
+    color: #ffffff;
 }
