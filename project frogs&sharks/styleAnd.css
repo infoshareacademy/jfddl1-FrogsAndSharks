@@ -4,13 +4,13 @@
 }
 
 
-h1 {
+.back h1 {
     text-align: center;
     margin-bottom: 3%;
     font-size: 50px;
 
 }
-h2 {
+.tile h2 {
     font-size: 25px;
 }
 .tile{
