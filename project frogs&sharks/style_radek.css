@@ -1,0 +1,108 @@
+
+/* counter */
+.content-bg1 {
+    box-sizing: border-box;
+    background-image: url("image/photo_fitnes.jpg");
+    color: #fff;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 20px #000;
+}
+
+
+
+.counter {
+    display: flex;
+    justify-content: space-around;
+    background: url(image/background-section2.jpg) repeat ;
+    color: #FACC51;
+    border-radius: 2%;
+    font-family: 'Electrolize', sans-serif;
+    padding: 5%;
+    font-size: 2rem;
+
+}
+
+ .premiera {
+    background-color: #cccccc;
+    opacity: 0.7;
+    text-align: center;
+    color: #131313;
+    padding: 2%;
+     z-index: -1;
+}
+
+.premiera p {
+    padding: 2%;
+}
+
+
+
+footer  {
+    background: url(image/footer-bg.png) repeat ;
+    color: #525252;
+}
+footer li a {
+    text-decoration: none;
+    color: #525252;
+}
+
+.copyright {
+    text-align: center;
+    padding: 1%;
+}
+
+
+
+    .social-media {
+        position: static;
+        width: 100%;
+    }
+    .social-media li {
+        width: 100%;
+    }
+
+.social-media img {
+    position: static;
+    display: inline-block;
+    float: left;
+    width: 20%;
+    height: 12%;
+}
+
+
+}
+
+
+
+.social-icon img {
+    width: 50px;
+
+
+}
+
+.social-icon img:hover {
+   border:solid 5px #bebebe;
+    border-radius: 100%;
+
+}
+
+@media (min-width: 768px) {
+    .col-lg-3 img {
+        width: 100px;
+    }
+
+}
+
+
+
+
+.text-motive {
+    padding-top: 20%;
+    padding-bottom: 10%;
+
+}
