@@ -1,0 +1,27 @@
+.contact-section {
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.contact-section h1 {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 800;
+    padding-top: 5vh;
+}
+
+.team-section {
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.person-description {
+
+}
+
+.team-section h1 {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 800;
+    padding-top: 5vh;
+}
