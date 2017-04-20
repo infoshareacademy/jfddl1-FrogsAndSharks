@@ -10,8 +10,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    text-shadow: 0 0 20px #000;
-}
+ }
 
 
 
@@ -28,8 +27,8 @@
 }
 
  .premiera {
-    background-color: #cccccc;
-    opacity: 0.7;
+    background-color: #32A095;
+    opacity: 0.8;
     text-align: center;
     color: #131313;
     padding: 2%;
@@ -58,13 +57,13 @@ footer li a {
 
 
 
-    .social-media {
-        position: static;
-        width: 100%;
-    }
-    .social-media li {
-        width: 100%;
-    }
+.social-media {
+    position: static;
+    width: 100%;
+}
+.social-media li {
+    width: 100%;
+}
 
 .social-media img {
     position: static;
@@ -73,10 +72,6 @@ footer li a {
     width: 20%;
     height: 12%;
 }
-
-
-}
-
 
 
 .social-icon img {
