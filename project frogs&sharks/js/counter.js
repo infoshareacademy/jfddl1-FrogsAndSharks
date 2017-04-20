@@ -3,25 +3,25 @@
  */
 
 function getTimeRemaining(startDate) {
-    var t = Date.parse(premiera) - Date.parse(new Date());
+    var t = Date.parse(startDate) - Date.parse(new Date());
     var seconds =   Math.floor((t / 1000) % 60);
     var minutes = Math.floor((t / 1000 / 60) % 60);
-    var hours = Math.floor((t / 1000 * 60 * 60) % 24);
-    var days = Math.floor((t / 1000 * 60 * 60 * 24));
+    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
     return {
         'total': t,
         'seconds': seconds,
         'minutes': minutes,
         'hours': hours,
         'days': days
-    }
+    };
 }
 function timeToStart(id, startDate) {
-    var myClock = document.getElementById(id);
-    var myDays = clock.querySelector('#days');
-    var myHours = clock.querySelector('#hours');
-    var myMinutes = clock.querySelector('#minutes');
-    var mySeconds = clock.querySelector('#seconds');
+    var myClock = document.getElementById('countdown');
+    var myDays = myClock.querySelector('#days');
+    var myHours = myClock.querySelector('#hours');
+    var myMinutes = myClock.querySelector('#minutes');
+    var mySeconds = myClock.querySelector('#seconds');
 
     function updateClock() {
         var t = getTimeRemaining(startDate);
@@ -30,10 +30,13 @@ function timeToStart(id, startDate) {
         myHours.innerHTML = ('0' + t.hours).slice(-2);
         myMinutes.innerHTML = ('0' + t.minutes).slice(-2);
         mySeconds.innerHTML = ('0' + t.seconds).slice(-2);
-    }
+
+        if (t.total <= 0) {
+            clearInterval(timeinterval);
+        }
 }
     updateClock();
     var timeinterval= setInterval(updateClock, 1000)
 }
-var deadline = new Date("2017-06-05T14:57:06.000Z");
-timeToStart('#counter', deadline);
+var deadline = new Date(2017, 06, 05, 23, 59, 59);
+timeToStart('countdown', deadline);
