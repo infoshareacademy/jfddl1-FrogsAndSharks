@@ -1,109 +1,28 @@
-.teamsec{
-    background-image: url("image/exa.png");
-    color: #ffffff;
-}
 
-
-.back h1 {
+.contact-section {
     text-align: center;
-    margin-bottom: 3%;
-    font-size: 50px;
+    padding-top: 5vh;
+}
 
+.contact-section h1 {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 800;
+    padding-top: 5vh;
 }
-.tile h2 {
-    font-size: 25px;
-}
-.tile{
-    border: 2px solid black;
+
+.team-section {
     text-align: center;
-    padding: 8px;
-    background-color: rgba(147, 112, 219, 0.6);
-    margin-bottom: 10%;
-    font-size: 16px;
+    padding-top: 5vh;
+}
+
+.person-description {
 
 }
 
-.tile:hover {
-    background-color: rgba(255, 0, 0, 0.6);
-    width: 110%;
-    transition background: 3s;
-}
-
-.tile img{
-    width: 100%;
-}
-/*Tutaj zaczynaja sie cssy do formularza*/
-
-.backg{
-    background-image: url("image/training.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
-    color: #ffffff;
-}
-
-.backgcol{
-    background-color: rgba(91, 181, 173, 0.5);
-
-}
-
-.header1 {
-    font-size: 50px;
-    font-style: italic;
-    text-align: left;
-    text-transform: capitalize;
-}
-
-.texth1{
-    float: left;
-    width: 60%;
-    text-align: left;
-    font-size: 20px;
-}
-
-.quote{
-    background-color: #ffffff;
-    font-size: 25px;
-    padding-bottom: 3px;
-    padding-top: 10px;
-    color: #000000;
-    text-align: center;
-    max-width: 100%;
-}
-
-
-.zapis{
-    background-color: rgba(255, 0, 0, 0.5);
-    padding: 12px 20px 50px 30px;
-    height: auto
-    color: #ffffff;
-    font-size: larger;
-    margin-top: -320px;
-}
-.h11{
-    font-size: 30px;
-    text-align: left;
-}
-
-.formbg {
-    color: #ffffff;
-    text-align: left;
-}
-
-.form-control{
-    border: none;
-    border-radius: 0%;
-}
-
-.btn {
-    background-color: #219f94;
-    border: none;
-    padding: 10px 50px 10px 50px;
-    font-size: larger;
-    transition: background 1s;
-    color: #ffffff;
-    border-radius: 0%;
-}
-.btn:hover{
-    background-color: #ff0000;
-    color: #ffffff;
+.team-section h1 {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 800;
+    padding-top: 5vh;
 }

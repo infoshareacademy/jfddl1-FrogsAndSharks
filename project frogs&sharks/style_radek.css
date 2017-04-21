@@ -5,13 +5,11 @@
     background-image: url("image/photo_fitnes.jpg");
     color: #fff;
     width: 100%;
-    min-height: auto;
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    text-shadow: 0 0 20px #000;
-}
+ }
 
 
 
@@ -23,32 +21,23 @@
     border-radius: 2%;
     font-family: 'Electrolize', sans-serif;
     padding: 5%;
-    font-size: 2rem;
-
+    font-size: 2.5rem;
 }
 
- .premiera {
-    background-color: #cccccc;
-    opacity: 0.7;
-    text-align: center;
-    color: #131313;
-    padding: 2%;
-     z-index: -1;
+.startujemy {
+    padding-bottom: 10px;
 }
-
-.premiera p {
-    padding: 2%;
-}
-
-
 
 footer  {
-    background: url(image/footer-bg.png) repeat ;
-    color: #525252;
+    background-color: #1A1B1D;
+    color: #909090  ;
+}
+footer li {
+    list-style-type: none;
 }
 footer li a {
     text-decoration: none;
-    color: #525252;
+    color: #909090;
 }
 
 .copyright {
@@ -56,40 +45,6 @@ footer li a {
     padding: 1%;
 }
 
-
-
-    .social-media {
-        position: static;
-        width: 100%;
-    }
-    .social-media li {
-        width: 100%;
-    }
-
-.social-media img {
-    position: static;
-    display: inline-block;
-    float: left;
-    width: 20%;
-    height: 12%;
-}
-
-
-}
-
-
-
-.social-icon img {
-    width: 50px;
-
-
-}
-
-.social-icon img:hover {
-   border:solid 5px #bebebe;
-    border-radius: 100%;
-
-}
 
 @media (min-width: 768px) {
     .col-lg-3 img {
@@ -102,7 +57,44 @@ footer li a {
 
 
 .text-motive {
-    padding-top: 20%;
+    padding-top: 10%;
     padding-bottom: 10%;
 
 }
+
+#countdown {
+    margin-top: 20px;
+}
+
+.social-media-icons img {
+    max-width: 50px;
+    float: left;
+    padding: 2%;
+}
+
+.panel-collapse {
+    background-color: #000000;
+}
+
+.panel-body {
+    border: none;
+}
+.panel {
+    border:none;
+}
+
+.panel-title {
+    color: #909090;
+}
+.panel-default > .panel-heading {
+    background-color: #1A1B1D;
+}
+
+.follow{
+    padding-left: 55px;
+}
+
+@media (max-width: 768px) {
+.follow {padding-left: 15px;}
+}
+
