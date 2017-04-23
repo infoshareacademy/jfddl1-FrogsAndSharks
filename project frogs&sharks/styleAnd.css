@@ -1,27 +1,37 @@
 .teamsec{
-    background-image: url("image/exa.png");
+    background-image: url("image/swirl.png");
     color: #ffffff;
+    padding-bottom: 5%;
 }
 .title{
     text-align: center;
+    color: #000;
 }
 
-
-.tile h2 {
-    font-size: 25px;
+.card{
+    margin:
 }
-.tile{
-    border: 2px solid black;
-    text-align: center;
-    background-color: rgba(164, 38, 135, 0.6);
-    margin-bottom: 10%;
-    font-size: 16px;
-
-}
-
 
 .img100p{
     width: 100%;
+}
+
+.img100gif{
+    width: 100%;
+    height: 263px;
+    position: relative;
+}
+
+.nick{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    color: #FFF;
+    background-color: rgba(164, 38, 135, 0.5);
+    padding-left: -20px;
+
+
+
 }
 /*Tutaj zaczynaja sie cssy do formularza*/
 
