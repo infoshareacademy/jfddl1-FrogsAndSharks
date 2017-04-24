@@ -18,7 +18,11 @@
     <link href="func_style.css" rel="stylesheet">
     <link rel="stylesheet" href="style_radek.css" type="text/css">
 
-    <link rel="Shortcut icon" href="image/favicon.ico"/>
+ <link rel="Shortcut icon" href="image/favicon.ico" />
+    <!-- COOKIES -->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <!-- END COOKIES -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -147,7 +151,7 @@
                     <div class="functions">
                         <div class="title_func">
                             <img src="image/img_diet.png">
-                            <h3>Trochę o diecie...</h3>
+                            <h3>Dieta</h3>
                         </div>
                         <div class="p_func">
                             <p>
@@ -165,8 +169,8 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="functions">
                         <div class="title_func">
-                            <img src="image/img_diet.png">
-                            <h3>Trochę o diecie...</h3>
+                            <img src="image/img_work.png">
+                            <h3>Trening</h3>
                         </div>
                         <div class="p_func">
                             <p>
@@ -183,8 +187,8 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="functions">
                         <div class="title_func">
-                            <img src="image/img_diet.png">
-                            <h3>Trochę o diecie...</h3>
+                            <img src="image/img_tips.png">
+                            <h3>Poradnia motywacyjna</h3>
                         </div>
                         <div class="p_func">
                             <p>
@@ -196,14 +200,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3">
-                    <div class="button_check_us" data-element="">SPRAWDŹ NAS</div>
-
                 </div>
             </div>
         </div>
@@ -399,16 +395,15 @@
     </div>
 
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 col-xs-12 for-clients">
-                    <ul><h1>Serwis</h1>
-                        <li>O nas</li>
-                        <li><a href="warunki%20korzystania.html" target="_blank" alt="Regulamin serwisu">Regulamin</a>
-                        </li>
-                        <li>Nasz Zespół</li>
-                    </ul>
+<footer>
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-xs-12 for-clients">
+                <ul><h1>Serwis</h1>
+                    <li>O nas</li>
+                    <li><a href="warunki%20korzystania.html" target="_blank" alt="Regulamin serwisu">Regulamin</a></li>
+                    <li>Nasz Zespół</li>
+                </ul>
 
                 </div>
 
@@ -474,6 +469,28 @@
 
     </footer>
 
+<!-- COOKIES -->
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#32a095",
+                    "text": "#ffffff"
+                },
+                "button": {
+                    "background": "#761b61"
+                }
+            },
+            "position": "bottom-right",
+            "content": {
+                "message": "Nasza strona internetowa używa plików cookies (tzw. ciasteczka) w celach statystycznych, reklamowych oraz funkcjonalnych.",
+                "dismiss": "AKCEPTUJĘ!",
+                "link": "Dowiedz się więcej!"
+            }
+        })});
+</script>
+<!-- END COOKIES -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
