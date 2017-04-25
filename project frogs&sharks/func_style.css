@@ -84,10 +84,8 @@
     color: #ffffff ;
 }
 */
-.container {
-    text-align: center;
-}
-#button_check_us {
+
+.button_check_us {
     background-color: transparent;
     border-top: 4px solid #a42687;
     border-bottom: 4px solid #a42687;
@@ -104,13 +102,13 @@
     text-align: center;
 }
 
-#button_check_us:hover {
+.button_check_us:hover {
     background-color: transparent;
     border-top: 4px solid #fff900;
     border-bottom: 4px solid #fff900;
 }
 
-#button_check_us:active {
+.button_check_us:active {
     position: relative;
     top:2px;
 }
