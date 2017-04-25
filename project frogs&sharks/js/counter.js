@@ -1,4 +1,7 @@
 /**
+ * Created by radek on 25.04.17.
+ */
+/**
  * Created by radek on 20.04.17.
  */
 
@@ -34,7 +37,7 @@ function timeToStart(id, startDate) {
         if (t.total <= 0) {
             clearInterval(timeinterval);
         }
-}
+    }
     updateClock();
     var timeinterval= setInterval(updateClock, 1000)
 }

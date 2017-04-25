@@ -9,7 +9,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
- }
+}
 
 
 
@@ -46,12 +46,6 @@ footer li a {
 }
 
 
-@media (min-width: 768px) {
-    .col-lg-3 img {
-        width: 100px;
-    }
-
-}
 
 
 
@@ -95,6 +89,5 @@ footer li a {
 }
 
 @media (max-width: 768px) {
-.follow {padding-left: 15px;}
+    .follow {padding-left: 15px;}
 }
-
