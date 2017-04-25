@@ -36,14 +36,13 @@
 /*Tutaj zaczynaja sie cssy do formularza*/
 
 .backg{
-    background-image: url("image/training.jpeg");
+    background-image: url("image/backkettle.jpg");
     background-size: cover;
     background-attachment: fixed;
     color: #ffffff;
 }
 
-.backgcol{
-    background-color: rgba(91, 181, 173, 0.5);
+
 
 
 }
