@@ -41,5 +41,5 @@ function timeToStart(id, startDate) {
     updateClock();
     var timeinterval= setInterval(updateClock, 1000)
 }
-var deadline = new Date(2017, 6, 5, 23, 59, 59);
+var deadline = new Date(2017, 5, 5, 23, 59, 59);
 timeToStart('countdown', deadline);
