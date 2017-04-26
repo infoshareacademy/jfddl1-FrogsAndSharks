@@ -84,7 +84,7 @@
     color: #ffffff ;
 }
 */
-
+/*
 .button_check_us {
     background-color: transparent;
     border-top: 4px solid #a42687;
@@ -92,7 +92,7 @@
     border-left: 0;
     border-right: 0;
     /*display: inline-block;*/
-    cursor: pointer;
+  /*  cursor: pointer;
     color: #ffffff;
     font-size: 3em;
     margin-top: auto;
@@ -111,19 +111,19 @@
 .button_check_us:active {
     position: relative;
     top:2px;
-}
-a {
-    text-decoration: none;
-}
+}*/
+/*a {*/
+    /*text-decoration: none;*/
+/*}*/
 
-a:hover {
-    text-decoration: none!important;
-    color: black!important;
-}
+/*a:hover {*/
+    /*text-decoration: none!important;*/
+    /*color: black!important;*/
+/*}*/
 
-a.active    {
-    text-decoration: none!important;
-    color: black!important;
+/*a.active    {*/
+    /*text-decoration: none!important;*/
+    /*color: black!important;*/
 }
 }
 
@@ -142,9 +142,6 @@ a.active    {
     100% { transform: skewY(0deg); }
 }
 
-.item  {
-    width: auto;
-    height: 100vh;
-}
+
 /***********************************
  TU JE KUNIEC STYLÓW DO SEKCJI FUNKCJEEEEE
