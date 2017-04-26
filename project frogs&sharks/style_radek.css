@@ -5,20 +5,11 @@
     background-image: url("image/photo_fitnes.jpg");
     color: #fff;
     width: 100%;
-<<<<<<< HEAD
-=======
-    min-height: auto;
->>>>>>> 14aa772dceea7487833b911f6aee3c3808f3c697
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-<<<<<<< HEAD
- }
-=======
-    text-shadow: 0 0 20px #000;
 }
->>>>>>> 14aa772dceea7487833b911f6aee3c3808f3c697
 
 
 
@@ -30,7 +21,6 @@
     border-radius: 2%;
     font-family: 'Electrolize', sans-serif;
     padding: 5%;
-<<<<<<< HEAD
     font-size: 2.5rem;
 }
 
@@ -48,34 +38,6 @@ footer li {
 footer li a {
     text-decoration: none;
     color: #909090;
-=======
-    font-size: 2rem;
-
-}
-
- .premiera {
-    background-color: #cccccc;
-    opacity: 0.7;
-    text-align: center;
-    color: #131313;
-    padding: 2%;
-     z-index: -1;
-}
-
-.premiera p {
-    padding: 2%;
-}
-
-
-
-footer  {
-    background: url(image/footer-bg.png) repeat ;
-    color: #525252;
-}
-footer li a {
-    text-decoration: none;
-    color: #525252;
->>>>>>> 14aa772dceea7487833b911f6aee3c3808f3c697
 }
 
 .copyright {
@@ -84,13 +46,6 @@ footer li a {
 }
 
 
-<<<<<<< HEAD
-@media (min-width: 768px) {
-    .col-lg-3 img {
-        width: 100px;
-    }
-
-}
 
 
 
@@ -134,57 +89,5 @@ footer li a {
 }
 
 @media (max-width: 768px) {
-.follow {padding-left: 15px;}
+    .follow {padding-left: 15px;}
 }
-
-=======
-
-    .social-media {
-        position: static;
-        width: 100%;
-    }
-    .social-media li {
-        width: 100%;
-    }
-
-.social-media img {
-    position: static;
-    display: inline-block;
-    float: left;
-    width: 20%;
-    height: 12%;
-}
-
-
-}
-
-
-
-.social-icon img {
-    width: 50px;
-
-
-}
-
-.social-icon img:hover {
-   border:solid 5px #bebebe;
-    border-radius: 100%;
-
-}
-
-@media (min-width: 768px) {
-    .col-lg-3 img {
-        width: 100px;
-    }
-
-}
-
-
-
-
-.text-motive {
-    padding-top: 20%;
-    padding-bottom: 10%;
-
-}
->>>>>>> 14aa772dceea7487833b911f6aee3c3808f3c697

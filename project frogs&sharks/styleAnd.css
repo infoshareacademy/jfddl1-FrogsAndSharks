@@ -1,65 +1,37 @@
-<<<<<<< HEAD
-
-.contact-section {
-    text-align: center;
-    padding-top: 5vh;
-}
-
-.contact-section h1 {
-    text-transform: uppercase;
-    font-family: Roboto;
-    font-weight: 800;
-    padding-top: 5vh;
-}
-
-.team-section {
-    text-align: center;
-    padding-top: 5vh;
-}
-
-.person-description {
-
-}
-
-.team-section h1 {
-    text-transform: uppercase;
-    font-family: Roboto;
-    font-weight: 800;
-    padding-top: 5vh;
-=======
 .teamsec{
-    background-image: url("image/exa.png");
+    background-image: url("image/swirl.png");
     color: #ffffff;
+    padding-bottom: 5%;
 }
-
-
-.back h1 {
+.title{
     text-align: center;
-    margin-bottom: 3%;
-    font-size: 50px;
-
-}
-.tile h2 {
-    font-size: 25px;
-}
-.tile{
-    border: 2px solid black;
-    text-align: center;
-    padding: 8px;
-    background-color: rgba(147, 112, 219, 0.6);
-    margin-bottom: 10%;
-    font-size: 16px;
-
+    color: #000;
 }
 
-.tile:hover {
-    background-color: rgba(255, 0, 0, 0.6);
-    width: 110%;
-    transition background: 3s;
+.card{
+    margin:
 }
 
-.tile img{
+.img100p{
     width: 100%;
+}
+
+.img100gif{
+    width: 100%;
+    height: 263px;
+    position: relative;
+}
+
+.nick{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    color: #FFF;
+    background-color: rgba(164, 38, 135, 0.5);
+    padding-left: -20px;
+
+
+
 }
 /*Tutaj zaczynaja sie cssy do formularza*/
 
@@ -73,13 +45,19 @@
 .backgcol{
     background-color: rgba(91, 181, 173, 0.5);
 
+
 }
 
 .header1 {
     font-size: 50px;
     font-style: italic;
-    text-align: left;
     text-transform: capitalize;
+    font-size: 50px;
+
+}
+.back{
+    text-align: center;
+
 }
 
 .texth1{
@@ -90,7 +68,6 @@
 }
 
 .quote{
-    background-color: #ffffff;
     font-size: 25px;
     padding-bottom: 3px;
     padding-top: 10px;
@@ -101,12 +78,12 @@
 
 
 .zapis{
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(164, 38, 135, 0.5);
     padding: 12px 20px 50px 30px;
     height: auto
     color: #ffffff;
     font-size: larger;
-    margin-top: -320px;
+
 }
 .h11{
     font-size: 30px;
@@ -135,5 +112,4 @@
 .btn:hover{
     background-color: #ff0000;
     color: #ffffff;
->>>>>>> 14aa772dceea7487833b911f6aee3c3808f3c697
 }

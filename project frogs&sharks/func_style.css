@@ -141,5 +141,10 @@ a.active    {
     75% { transform: skewY(-1deg); }
     100% { transform: skewY(0deg); }
 }
+
+.item  {
+    width: auto;
+    height: 100vh;
+}
 /***********************************
  TU JE KUNIEC STYLÓW DO SEKCJI FUNKCJEEEEE

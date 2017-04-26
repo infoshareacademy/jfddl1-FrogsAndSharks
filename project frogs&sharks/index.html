@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>ptrainer - twój kieszonkowy trener personalny</title>
+
     <meta name="description" content="Wszystko co niezbędne w procesie dbania o sylwetkę. Kalkulatory, dieta, plan treningowy." />
+
     <meta name="keywords" content="odchudzianie, trening, plan, dieta, żywienie, ćwiczenia, organizer, kalorie, trener, personalny,
-	BMI, kalkulator, ile, kalorii, zdrowe, zdrowie, masa, mięśniowa, waga, tłuszcz" />
+	BMI, kalkulator, ile, kalorii, zdrowe, zdrowie, masa, mięśniowa, waga, tłuszcz"/>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="styleAnd.css" rel="stylesheet">
     <link href="func_style.css" rel="stylesheet">
-    <link rel="stylesheet" href="style_radek.css" type="text/css" >
+    <link rel="stylesheet" href="style_radek.css" type="text/css">
 
  <link rel="Shortcut icon" href="image/favicon.ico" />
     <!-- COOKIES -->
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <!-- END COOKIES -->
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,9 +32,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
 
+
     <![endif]-->
 </head>
 <body>
+<sect>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -57,24 +60,54 @@
 </nav>
 <section id="home">
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="home-section">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="home-section">
-                        <div class="home-description">
-                            <h1>Chcesz zadbać o swoją kondycję? Trafiłeś idealnie!</h1>
-                            <img src="image/sep.png">
-                            <p>ptrainer to aplikacja która pomoże ci w osiągnięciu wymarzonego celu. Zadba o Twój trening od strony
-                                od strony technicznej, dobierze zestaw ćwiczeń, rospisze dietę a przypomnienia sprawią, że już nigdy nie
-                                opuścisz treningu.</p>
-                            <a href="#about" id="home-button-left" class="btn btn-primary btn-xl page-scroll">Dowiedz się więcej</a>
-                            <a href="#about" id="home-button-right" class="btn btn-primary btn-xl page-scroll">Jestem zainteresowany</a>
-                        </div>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item">
+                <img src="image/carousel1.jpg" alt="pic1">
+                <div class="carousel-caption">
+                    <h3>jakis test</h3>
+                </div>
+            </div>
+            <div class="item active">
+                <img src="image/head-background-2.jpg" alt="pic2">
+                <div class="carousel-caption">
+
+                    <div class="home-description">
+                        <h1>Chcesz zadbać o swoją kondycję? Trafiłeś idealnie!</h1>
+                        <img src="image/sep.png">
+                        <p>ptrainer to aplikacja która pomoże ci w osiągnięciu wymarzonego celu. Zadba o Twój trening od strony
+                            od strony technicznej, dobierze zestaw ćwiczeń, rospisze dietę a przypomnienia sprawią, że już nigdy nie
+                            opuścisz treningu.</p>
+                        <a href="#about" id="home-button-left" class="btn btn-primary btn-xl page-scroll">Dowiedz się więcej</a>
+                        <a href="#form" id="home-button-right" class="btn btn-primary btn-xl page-scroll">Jestem zainteresowany</a>
                     </div>
                 </div>
             </div>
+            <div class="item">
+                <img src="image/carousel3.jpg" alt="pic2">
+                <div class="carousel-caption">
+                    <h3>Jakis teskt</h3>
+                </div>
+            </div>
         </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </section>
 <section id="about">
@@ -90,39 +123,46 @@
         <div class="row">
             <div class="first-section">
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div id="cir-1" class="circle"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></div>
+                    <div id="cir-1" class="circle"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                    </div>
                     <h3>Interfejs</h3>
-                    <p>Intuicyjny i przejżysty interfejs sprawi, że użytkowanie naszej aplikacji będzie proste i przyjemne. </p>
+                    <p>Intuicyjny i przejżysty interfejs sprawi, że użytkowanie naszej aplikacji będzie proste i
+                        przyjemne. </p>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div id="cir-2" class="circle"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></div>
+                    <div id="cir-2" class="circle"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                    </div>
                     <h3>Funkcje</h3>
-                    <p>Aplikacja zawiera dużo funkcji, które pozwolą Ci na kontrolowanie oraz zooptymalizowanie Twojego treningu.</p>
+                    <p>Aplikacja zawiera dużo funkcji, które pozwolą Ci na kontrolowanie oraz zooptymalizowanie Twojego
+                        treningu.</p>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div id="cir-3" class="circle"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span></div>
+                    <div id="cir-3" class="circle"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                    </div>
                     <h3>Mobilność</h3>
-                    <p>Nasza aplikacja jest dostosowana by działać na urządzeniach mobilnych, możesz z niej korzystać prawie w każdym miejscu.</p>
+                    <p>Nasza aplikacja jest dostosowana by działać na urządzeniach mobilnych, możesz z niej korzystać
+                        prawie w każdym miejscu.</p>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div id="cir-4" class="circle"><span class="glyphicon glyphicon-signal" aria-hidden="true"></span></div>
+                    <div id="cir-4" class="circle"><span class="glyphicon glyphicon-signal" aria-hidden="true"></span>
+                    </div>
                     <h3>Rezultaty</h3>
-                    <p>Dzięki temu, że wszystko czego Ci potrzeba podczas treningu masz w zasięgu ręki masz większą szansę na sukces.</p>
+                    <p>Dzięki temu, że wszystko czego Ci potrzeba podczas treningu masz w zasięgu ręki masz większą
+                        szansę na sukces.</p>
 
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- POCZATEK SEKCJI FUKCJE ********************************************************* -->
 <section id="howitwork">
-    <div  id="bg_wallpaper" class="container-fluid">
+    <div id="bg_wallpaper" class="container-fluid">
         <div class="container" data-element="funct_element">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="func_title">
                         <h1>
-                            <strong>Jak</strong> to działa?
+                            Jak to działa?
                         </h1>
                         <img src="image/sep.png">
                     </div>
@@ -137,11 +177,15 @@
                     <div class="functions">
                         <div class="title_func">
                             <img src="image/img_diet.png">
-                            <h3>Dieta</h3>
+                            <h3>Trochę o diecie...</h3>
                         </div>
                         <div class="p_func">
                             <p>
-                                Głową muru nie przebijesz, ale... podejdź do kwestii żywienia z głową! Odżywianie jest istotnym elementem każdego treningu oraz zdrowego trybu życia. Jednakże, aby prawidłowo się odżywiać nie wystarczy tylko zastosować dietę.Tak! Podchodząc do żywienia trzeba je prawidłowo zaplanować, a z nami nie tylko ułożysz właściwą dietę, także poznasz jej tajniki i sekrety...
+                                Głową muru nie przebijesz, ale... podejdź do kwestii żywienia z głową! Odżywianie jest
+                                istotnym elementem każdego treningu oraz zdrowego trybu życia. Jednakże, aby prawidłowo
+                                się odżywiać nie wystarczy tylko zastosować dietę.Tak! Podchodząc do żywienia trzeba je
+                                prawidłowo zaplanować, a z nami nie tylko ułożysz właściwą dietę, także poznasz jej
+                                tajniki i sekrety...
                             </p>
                         </div>
 
@@ -156,7 +200,11 @@
                         </div>
                         <div class="p_func">
                             <p>
-                                Czyżby nastał najwyższy moment na powrót do formy? Sport poprawia sylwetkę, wzmacnia serce, przynosi same korzyści. Ale, aby nie przyniósł problemów z kontuzjami, urazami i uszczerbkami przygotuj się profesjonalnie do treningów. Wskażemy najlepsze ćwiczenia dla początkujących, dobierzemy zestaw dla zaawansowanych i pokażemy jak prawidłowo wykonywać ruchy aby nie doznać kontuzji.
+                                Czyżby nastał najwyższy moment na powrót do formy? Sport poprawia sylwetkę, wzmacnia
+                                serce, przynosi same korzyści. Ale, aby nie przyniósł problemów z kontuzjami, urazami i
+                                uszczerbkami przygotuj się profesjonalnie do treningów. Wskażemy najlepsze ćwiczenia dla
+                                początkujących, dobierzemy zestaw dla zaawansowanych i pokażemy jak prawidłowo wykonywać
+                                ruchy aby nie doznać kontuzji.
                             </p>
                         </div>
                     </div>
@@ -170,7 +218,11 @@
                         </div>
                         <div class="p_func">
                             <p>
-                                Zaczynasz szukać wymówek, żeby nie iść na trening? Wmawiać sobie, że nie dasz rady? Przekonamy Cię, że nie warto rezygnować i poddawać się! Uwierzysz jak wszystkie cele znajdują się w zasięgu Twoich możliwości! Przedstawimy Twobie wiele sposobów do utrzymania chęci na maksymalnym poziomie, a dzięki nim, szybko ujrzysz efekty swojej pracy. Nie ma rzeczy niemożliwych, pamietaj!
+                                Zaczynasz szukać wymówek, żeby nie iść na trening? Wmawiać sobie, że nie dasz rady?
+                                Przekonamy Cię, że nie warto rezygnować i poddawać się! Uwierzysz jak wszystkie cele
+                                znajdują się w zasięgu Twoich możliwości! Przedstawimy Twobie wiele sposobów do
+                                utrzymania chęci na maksymalnym poziomie, a dzięki nim, szybko ujrzysz efekty swojej
+                                pracy. Nie ma rzeczy niemożliwych, pamietaj!
                             </p>
                         </div>
                     </div>
@@ -179,69 +231,122 @@
         </div>
     </div>
 </section>
-<!-- KONIEC SEKCJI FUKCJE ***************************************************************** -->
-<<<<<<< HEAD
-<section id="aboutus">
-        <div class="container">
-            <div class="row">
-                <div class="team-section">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h1>Poznaj nasz zespół</h1>
-                        <img src="image/sep.png"></div>
+
+<section id="aboutus"></section>
+<div class="teamsec">
+    <div class="container">
+        <div class="title">
+            <h1>Poznaj nasz zespół</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="card">
+                    <div class="front">
+                        <img class="img-responsive img100p" src="image/Radek.jpg" alt="Radek developer">
+                    </div>
+                    <div class="back">
+                        <img class="img-responsive img100gif" src="image/Barney.gif" alt="okejka">
+                            <h3 class="nick">Radosław Smyk</h3>
+                    </div>
                 </div>
             </div>
-            <div class="row"><!-- TUTAJ WSTAWIASZ SWÓJ KOD, NIE USTAWIASZ W STYLACH FONT_FAMILY I FONT_SIZE -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div class="person-description">
-                        <img src="image/Radek.jpg" alt="Radek developer">
-                        <h2>Radosław Smyk</h2>
-                        <p>Drogi Marszałku, Wysoka Izbo. PKB rośnie. Różnorakie i bogate doświadczenia pozwalają na
-                            rozszerzenie naszej działalności koliduje z dotychczasowymi zasadami systemu finansowego
-                            zmusza
-                            nas do przeanalizowania obecnej sytuacji. Pomijając fakt, że stałe zabezpieczenie
-                            informacyjne
-                            naszej kompetencji.</p>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="card">
+                    <div class="front">
+                        <img class="img-responsive img100p" src="image/Andrzej.jpg" alt="Andrzej developer">
+                    </div>
+                    <div class="back">
+                        <img class="img-responsive img100gif" src="image/rajesh.gif" alt="Yes Yes Yes">
+                            <h3 class="nick">Andrzej Szadkowski</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div class="person-description">
-                        <img src="image/Andrzej.jpg" alt="Andrzej developer">
-                        <h3>Andrzej Szadkowski</h3>
-                        <p>Drogi Marszałku, Wysoka Izbo. PKB rośnie. Różnorakie i bogate doświadczenia pozwalają na
-                            rozszerzenie naszej działalności koliduje z dotychczasowymi zasadami systemu finansowego
-                            zmusza
-                            nas do przeanalizowania obecnej sytuacji. Pomijając fakt, że stałe zabezpieczenie
-                            informacyjne
-                            naszej kompetencji.</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="card">
+                    <div class="front">
+                        <img class="img-responsive img100p" src="image/Andrzej.jpg" alt="Przemek developer">
+                    </div>
+                    <div class="back">
+                        <img class="img-responsive img100gif" src="image/scream.gif" alt="krzyk">
+                            <h3 class="nick">Przemysław Posiej</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div class="person-description">
-                        <img src="image/Andrzej.jpg" alt="Przemek developer">
-                        <h3>Przemysław Posiej</h3>
-                        <p>Drogi Marszałku, Wysoka Izbo. PKB rośnie. Różnorakie i bogate doświadczenia pozwalają na
-                            rozszerzenie naszej działalności koliduje z dotychczasowymi zasadami systemu finansowego
-                            zmusza
-                            nas do przeanalizowania obecnej sytuacji. Pomijając fakt, że stałe zabezpieczenie
-                            informacyjne
-                            naszej kompetencji.</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="card">
+                    <div class="front">
+                        <img class="img-responsive img100p" src="image/Andrzej.jpg" alt="Damian Developer">
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div class="person-description">
-                        <img src="image/Andrzej.jpg" alt="Damian Developer">
-                        <h3>Damian Biszczak</h3>
-                        <p>Drogi Marszałku, Wysoka Izbo. PKB rośnie. Różnorakie i bogate doświadczenia pozwalają na
-                            rozszerzenie naszej działalności koliduje z dotychczasowymi zasadami systemu finansowego
-                            zmusza
-                            nas do przeanalizowania obecnej sytuacji. Pomijając fakt, że stałe zabezpieczenie
-                            informacyjne
-                            naszej kompetencji.</p>
+                    <div class="back">
+                        <img class="img-responsive img100gif" src="image/dance.gif" alt="dance">
+                            <h3 class="nick">Damian Biszczak</h3>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</div>
+<div class="allsec">
+    <div class="backg">
+        <div class="backgcol">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-xs-12">
+                        <div class="back">
+                            <h1 class="header1">
+                                <br>Zostań supergwiazdą <br>fitnessu!!!
+                            </h1>
+                            <img src="image/sep.png" alt="separator">
+                        </div>
+                    </div>
+                </div>
+                <div class="formbg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9 col-xs-12">
+                                <div class="texth1">
+                                    <p>Przenieś swój trening na wyższy level!<br>Spraw, aby Twoje życie nabrało nowego
+                                        koloru.<br>Razem z nami odnajdziesz motywację i osiągniesz swoje cele.<br>Dzięki
+                                        PTRAINER pewnie wkroczysz w arkana fitnessu. </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xs-12">
+                                <div class="zapis">
+                                    <h1 class="h11">Niech trening<br>stanie się<br>Twoją OBSESJĄ!</h1>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Adres email</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                   placeholder="jan@kowalski.pl">
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox"> Zaznacz jeśli wyrażasz zgodę na otrzymywanie wiadomości
+                                            </label>
+                                        </div>
+                                        <div class="butto">
+                                            <button type="submit" class="btn btn-default">Wyślij</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="row">
+            <div class="col-lg-12 col-xs-12">
+                <div class="quote">
+                    <p>„Twój trening, twoja dieta, twoje ciało, twoje zmęczenie, twoje wyrzeczenia, twoja przemiana,
+                        ICH
+                        ZAZDROŚĆ…i pamiętaj - nigdy się nie poddawaj”</p>
+                </div>
+            </div>
+        </div>
 
 <section id="form">
     <div class="container">
@@ -347,212 +452,120 @@
                     <div class="for-clients social-media-icons">
                         <a href="https://twitter.com/PtrainerTeam" target="_blank"><img src="image/icons/twitter.png"></a>
                     </div>
-=======
+
+                    <div class="for-clients social-media-icons">
+                        <a href="https://www.instagram.com/ptrainer.team/" target="_blank"><img src="image/icons/instagram.png"></a>
+                    </div>
+
+                    <div class="for-clients social-media-icons">
+                        <a href="https://plus.google.com/u/0/109164556204490860938" target="_blank"><img src="image/icons/google-plus.png"></a>
+                    </div>
 
 
-<div class="container-fluid content-bg1">
-    <div class="row">
-        <div class="col-lg-offset-6 col-lg-6 col-xs-offset-3 col-xs-9 text-motive">
-            <h1> Z nami każdy trening będzie miał sens</h1>
-            <p>Gdy na twojej drodze pojawi się wiele przeszkód, nie pozwól byś ty sam był jedną z nich. </p>
-
+                </div>
         </div>
 
     </div>
 
-<div class="row premiera">
-    <div class="col-lg-12">
-        <div class="row">
-            <h1>Startujemy już 1 czerwca 2017</h1>
-            <p>Do startu pozostało:</p>
+
+        <div class="panel-group visible-xs" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                           aria-expanded="true" aria-controls="collapseOne">
+                            <h3>Serwis</h3>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        <ul>
+                            <li>Home</li>
+                            <li>O nas</li>
+                            <li><a href="warunki%20korzystania.html" target="_blank">Regulamin</a></li>
+                            <li>Nasz Zespół</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h3>Dla Klientów</h3>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        <ul>
+                            <li>O Aplikacji</li>
+                            <li>Baza Wiedzy</li>
+                            <li>Cennik</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h3>Kontakt</h3>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        <li>PTrainer</li>
+                        <li>ul.Męczenników Majdanka 181</li>
+                        <li>20-325 Lublin</li>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="row">
-            <div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6  col-xs-12 counter">
-                <div>
-                    <div id="days">28</div>
-                    <div>Days</div>
-                </div>
-                <div>
-                    <div id="hours">13</div>
-                    <div>Hour</div>
-                </div>
-                <div>
-                    <div id="minutes">45</div>
-                    <div>Minutes</div>
-                </div>
-                <div>
-                    <div id="seconds">26</div>
-                    <div>Seconds</div>
-                </div>
-
-
-            </div>
-
-        </div>
-
-        <div class="row">
-            <h1>Bądź na bieżąco</h1>
-            <p>Znajdź nas na</p>
-        </div>
-        <div class="row social-icon-row">
-            <div class="col-lg-3 col-xs-3 social-icon">
-                <a href="www.facebook.com/Ptrainer-767380716772388/"><img src="image/icons/facebook.png" ></a>
-            </div>
-            <div class="col-lg-3 col-xs-3 social-icon">
-                <a href="twitter.com/PtrainerTeam"><img src="image/icons/twitter.png" ></a>
-            </div>
-            <div class="col-lg-3 col-xs-3 social-icon">
-                <a href="www.instagram.com/ptrainer.team/"><img src="image/icons/instagram.png" ></a>
-            </div>
-            <div class="col-lg-3 col-xs-3 social-icon">
-                <a href="https://plus.google.com/u/0/109164556204490860938"><img src="image/icons/google-plus.png"></a>
-            </div>
-
-
-
-        </div>
-
-
-    </div>
-
-
-
-</div>
-
-
-
-</div>
-
-
-<footer>
-    <div class="container-fluid" >
-        <div class="row">
-            <div class="col-lg-3 col-sm-6 col-xs-12 for-clients">
-                <ul><h1>Serwis</h1>
-                    <li>O nas</li>
-                    <li><a href="warunki%20korzystania.html" target="_blank" alt="Regulamin serwisu">Regulamin</a></li>
-                    <li>Nasz Zespół</li>
-                </ul>
-
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-xs-12 for-clients">
-                <ul><h1>Nasza Oferta</h1>
-                    <li>Dieta</li>
-                    <li>Trening</li>
-                    <li>Motywacja</li>
-
-                </ul>
-
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-xs-12 for-clients">
-                <ul><h1>Dla Klientów</h1>
-                    <li>O Aplikacji</li>
-                    <li>Baza Wiedzy</li>
-                    <li>Cennik</li>
-                    <li>FAQ</li>
-
-                </ul>
-
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-xs-12 for-clients">
-                <ul><h1>Kontakt</h1>
-                    <li>PTrainer</li>
-                    <li>ul.lubelska</li>
-                    <li>20-000 Lublin</li>
-                </ul>
-
-            </div>
-        </div>
-
-
-        <!--
-        <div class="row">
-
-                 <div class="col-xs-3 for-clients">
-                    <a href="www.facebook.com/Ptrainer-767380716772388/"><img src="image/icons/facebook.png" ></a>
-                </div>
-
-                <div class="col-xs-3 for-clients">
-                    <a href="twitter.com/PtrainerTeam"><img src="image/icons/twitter.png" ></a>
-                </div>
-
-                <div class="col-xs-3 for-clients">
-                    <a href="instagram.com"><img src="image/icons/instagram.png" ></a>
-                </div>
-
-                <div class="col-xs-3 for-clients">
-                    <a href="googleplus.com"><img src="image/icons/google-plus.png"></a>
-                </div>
-        </div>
-    -->
-        <div class="row">
-            <div class="col-xs-12 copyright">
+            <div class="col-xs-11 copyright">
                 <p>Copyright 2017 Projekt i wykonanie: Frogs&Sharks Development sp. z o.o. </p>
             </div>
         </div>
+    </footer>
 
-    </div>
-
-</footer>
-
-<!-- COOKIES -->
-<script>
-    window.addEventListener("load", function(){
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#32a095",
-                    "text": "#ffffff"
+    <!-- COOKIES -->
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#32a095",
+                        "text": "#ffffff"
+                    },
+                    "button": {
+                        "background": "#761b61"
+                    }
                 },
-                "button": {
-                    "background": "#761b61"
+                "position": "bottom-right",
+                "content": {
+                    "message": "Nasza strona internetowa używa plików cookies (tzw. ciasteczka) w celach statystycznych, reklamowych oraz funkcjonalnych.",
+                    "dismiss": "AKCEPTUJĘ!",
+                    "link": "Dowiedz się więcej!"
                 }
-            },
-            "position": "bottom-right",
-            "content": {
-                "message": "Nasza strona internetowa używa plików cookies (tzw. ciasteczka) w celach statystycznych, reklamowych oraz funkcjonalnych.",
-                "dismiss": "AKCEPTUJĘ!",
-                "link": "Dowiedz się więcej!"
-            }
-        })});
-</script>
-<!-- END COOKIES -->
->>>>>>> 14aa772dceea7487833b911f6aee3c3808f3c697
+            })});
+    </script>
+    <!-- END COOKIES -->
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+<script src="js/flip.js"></script>
+
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<<<<<<< HEAD
-
-  <!-- COOKIES -->
-  <script>
-      window.addEventListener("load", function(){
-          window.cookieconsent.initialise({
-              "palette": {
-                  "popup": {
-                      "background": "#32a095",
-                      "text": "#ffffff"
-                  },
-                  "button": {
-                      "background": "#761b61"
-                  }
-              },
-              "position": "bottom-right",
-              "content": {
-                  "message": "Nasza strona internetowa używa plików cookies (tzw. ciasteczka) w celach statystycznych, reklamowych oraz funkcjonalnych.",
-                  "dismiss": "AKCEPTUJĘ!",
-                  "link": "Dowiedz się więcej!"
-              }
-          })});
-  </script>
-  <!-- END COOKIES -->
-  <script src="js/bootstrap.min.js"></script>
-<script src="js/counter.js"></script>
-=======
 <script src="js/bootstrap.min.js"></script>
->>>>>>> 14aa772dceea7487833b911f6aee3c3808f3c697
+<script src="js/counter.js"></script>
 </body>
 </html>
