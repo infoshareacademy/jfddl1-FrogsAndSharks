@@ -83,7 +83,12 @@ ul.nav.navbar-nav {
     /*height: 100vh;*/
     min-height: 100vh;
     position: absolute;
-
+}
+.carousel-inner-custom > .item > img {
+    max-width: none;
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
 }
 
 .home-description {
@@ -105,7 +110,7 @@ ul.nav.navbar-nav {
 .home-description h1 {
     text-align: center;
     /*padding-top: 10vh;*/
-    margin-top: 10vh;
+    /*margin-top: 10vh;*/
     margin-bottom: 5vh;
     text-transform: uppercase;
     font-family: Roboto;
