@@ -99,12 +99,11 @@
     border: none;
     border-radius: 0%;
 }
-
+/* W pliku bootstrap.css jest taka sama klasa z
 .btn {
     background-color: #219f94;
     border: none;
-    padding: 10px 50px 10px 50px;
-    font-size: larger;
+    font-size: 1.5rem;
     transition: background 1s;
     color: #ffffff;
     border-radius: 0%;
