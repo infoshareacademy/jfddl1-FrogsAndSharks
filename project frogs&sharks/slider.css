@@ -1,3 +1,28 @@
+.carousel.carousel-fade .item {
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    opacity:0;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
 /* >>>>>>>>USTAWIANIE ZAWARTOSCI KARUZELI<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .item {
@@ -34,7 +59,14 @@
     color: #ffffff;
     font-size: 3rem;
 }
-
+#arrows {
+    font-size: 20px;
+    top: 50%;
+    }
+.carousel-control:hover {
+    color: #38bfb4
+}
+}
 /* USTAWIENIA KARUZELI DO KONKRETNYCH WYSWIETLACZY */
 @media (max-width: 375px) {
     .carousel-caption {
