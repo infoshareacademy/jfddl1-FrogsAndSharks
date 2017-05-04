@@ -1,0 +1,123 @@
+/* >>>>>>>>USTAWIANIE ZAWARTOSCI KARUZELI<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.item {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    bottom: 35%;
+}
+
+.carousel-inner>.item>img{
+    width: 100%
+}
+
+.carousel-caption p {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    /*padding-left: 10vh;*/
+    /*padding-right: 10vh; /* KOSMETYKA W KWESTII KARUZELI *!*/
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+
+.carousel-caption h1 {
+    text-align: center;
+    /*padding-top: 10vh;*/ /* KOSMETYKA */
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+/* USTAWIENIA KARUZELI DO KONKRETNYCH WYSWIETLACZY */
+@media (max-width: 375px) {
+    .carousel-caption {
+        bottom: 7%;
+        left: 10%;
+        right: 10%;
+    }
+    .carousel-caption p {
+        padding-bottom: 0;
+        padding-top: 0;
+        font-size: 1em;
+    }
+    .carousel-caption h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+}
+@media (min-width: 376px) and (max-width: 766px) {
+    .item {
+        width: auto;
+        height: 50vh;
+    }
+    .carousel-inner>.item>img {
+        min-height: 100%;
+    }
+    .carousel-caption {
+        bottom: 7%;
+    }
+    .carousel-caption p {
+        padding-bottom: 0;
+        padding-top: 0;
+        font-size: 1.5rem;
+    }
+    .carousel-caption h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+    .item{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-caption {
+        bottom: 10%;
+    }
+    .carousel-caption p {
+        padding-bottom: 0;
+        padding-top: 0;
+        font-size: 1em;
+    }
+    .carousel-caption h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 2em;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .carousel-caption {
+        bottom: 35%
+    }
+    .carousel-caption p {
+        padding-bottom: 0;
+        padding-top: 0;
+        font-size: 1em;
+    }
+    .carousel-caption h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 2em;
+}
+@media screen and (min-width: 1201px) {
+    .carousel-caption p {
+        padding-bottom: 0;
+        padding-top: 0;
+        font-size: 2.5em;
+    }
+    .carousel-caption h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 3.5em;
+    }
+}
+/*KONIEC USTAWIEŃ KARUZELI DO KONKRETNYCH WYSWIETLACZY */
