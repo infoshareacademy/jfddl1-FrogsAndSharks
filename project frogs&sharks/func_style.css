@@ -68,11 +68,18 @@
     text-transform: uppercase;
     color: #303030;
     letter-spacing: 1px;
+    background-image: url("image/bg_plusy.jpg");
+    background-size: cover;
+
 }
 
 .func_h1 span{
     color: #e98457
 }
+#curveDownColor {
+    fill: #fff
+}
+
 /*.func_cols {*/
     /*transform: rotate(4deg) ;*/
 /*}*/
