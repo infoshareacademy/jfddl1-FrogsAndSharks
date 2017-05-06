@@ -20,7 +20,7 @@
     opacity: 1;
 }
 .carousel-fade .carousel-control {
-    z-index: 2;
+    z-index: 0;
 }
 
 /* >>>>>>>>USTAWIANIE ZAWARTOSCI KARUZELI<<<<<<<<<<<<<<<<<<<<<<<<<< */
