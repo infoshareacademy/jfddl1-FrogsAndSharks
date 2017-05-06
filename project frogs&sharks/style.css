@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto;
+    font-family: Arial, sans-serif!important;
     overflow-x: hidden;
 }
 section {
@@ -25,16 +25,17 @@ section {
 /*}*/
 
 .cont_aboutY {
-    transform: rotate(2deg);
+    transform: rotate(-2deg);
 }
 
 .se-slope{
     margin: 0 -50px;
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    -ms-transform-origin: left center;
-    transform-origin: left center;
+    padding: 0px 100px 200px 103px;
+    -webkit-transform-origin: right bottom;
+    -moz-transform-origin: right bottom;
+    -o-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
 }
 
 .se-slope:nth-child(even){
@@ -43,7 +44,7 @@ section {
     -moz-transform: rotate(-2deg);
     -o-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
-    transform: rotate(-2deg);
+    transform: rotate(2deg);
 }
 
 ul.nav.navbar-nav {
@@ -144,13 +145,13 @@ ul.nav.navbar-nav {
 
 .first-section h1 {
     text-transform: uppercase;
-    font-family: Roboto;
+    font-family: Arial, sans-serif;
     font-weight: 800;
     padding-top: 5vh;
 }
 
 .first-section p {
-    font-family: Roboto;
+    font-family: Arial, sans-serif;
     font-size: 16px;
 }
 
