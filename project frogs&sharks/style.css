@@ -17,7 +17,7 @@ section {
 
 .se-slope{
     margin: 0 -50px;
-    padding: 0px 100px 200px 103px;
+    padding: 50px 100px 200px 50px;
     -webkit-transform-origin: right bottom;
     -moz-transform-origin: right bottom;
     -o-transform-origin: right bottom;
@@ -89,20 +89,6 @@ ul.nav.navbar-nav {
     position: absolute;
     z-index: 1;
 }
-/*SEKCJA USUNIETA I ZAMIENIONA NA KARUZELE***********************************/
-/*.home-section {*/
-    /*position: relative;*/
-    /*width: 100%;*/
-    /*height: 100vh;*/
-    /*min-height: auto;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-position: center;*/
-    /*background-image: url('image/head-background-2.jpg');*/
-    /*text-align: center;*/
-/*}*/
 
 #home-button-left {
     background-color: #32a095;
@@ -126,7 +112,6 @@ ul.nav.navbar-nav {
 
 .first-section {
     text-align: center;
-    /*padding-top: 5vh;*/
 }
 
 
@@ -180,11 +165,8 @@ ul.nav.navbar-nav {
         padding-left: 0;
         padding-right: 0;
     }
-    /*!* USTAWIENIE DLA NAJMNIEJSZEGO WYSWIETLACZCA *!*/
-    /*.home-description {*/
-        /*padding-bottom: 5vh;*/
-    /*}*/
-/*}*/
+}
+
 
 @-webkit-keyframes logoanimation {
     0% {-webkit-transform: scale(1);}
