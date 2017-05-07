@@ -1,153 +1,204 @@
-#bg_wallpaper  {
+/* Tło kontenera z funkcjami******************** */
+.bg_wallpaper {
     background-image: url("image/wallpaper.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
-    min-height: auto;
+    height: auto;
+    min-height: 90vh;
 }
-
+/* Nagłówek kontenera *************************** */
 .func_title {
     text-align: center;
-    /*padding-top: 10vh;*/
-    margin-top: 10vh;
+    margin-top: 8vh;
     margin-bottom: 5vh;
     text-transform: uppercase;
     font-family: Roboto;
     font-weight: 800;
     color: #ffffff;
+    letter-spacing: .03em;
 }
 
-.functions {
-    background-color: #32A095;
-    opacity: 0.8;
-    height: 25em;
-    width: 100%;
-    position: relative;
-    margin-bottom: 10vh;
-    /*margin-top: 5vh;*/
+/* Wydlad na konkretnych wyswietlaczach ******************* */
 
-}
-
-.functions:hover   {
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-    background-color: #a42687;
-    animation: functionanimation 100ms;
-    /*-webkit-animation: functionanimation 100ms;*/
-}
-
-.title_func {
-    text-align: center;
-    padding-top: 1rem;
-}
-.title_func h3 {
-    margin-top: 1rem;
-    color: #ffffff;
-    font-weight: 600;
-}
-.p_func {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 1.1em;
-    height: 13em;
-    width: 100%;
-    color: #ffffff;
-    font-weight: 400;
-}
-
-/*
-.func_txt   {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    margin: 0;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 90%;
-    height: 90%;
-    color: #000000;
-    font-size: 1em;
-}
-
-.func_txt h3 {
-    margin-top: 0;
-    color: #ffffff;
-    font-weight: 400;
-}
-
-.func_txt p {
-    text-align: left;
-    font-size: 1.5rem;
-    color: #ffffff ;
-}
-*/
-/*
-.button_check_us {
-    background-color: transparent;
-    border-top: 4px solid #a42687;
-    border-bottom: 4px solid #a42687;
-    border-left: 0;
-    border-right: 0;
-    /*display: inline-block;*/
-  /*  cursor: pointer;
-    color: #ffffff;
-    font-size: 3em;
-    margin-top: auto;
-    margin-bottom: 10vh;
-    padding: 5px 15px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.button_check_us:hover {
-    background-color: transparent;
-    border-top: 4px solid #fff900;
-    border-bottom: 4px solid #fff900;
-}
-
-.button_check_us:active {
-    position: relative;
-    top:2px;
-}*/
-/*a {*/
-    /*text-decoration: none;*/
-/*}*/
-
-/*a:hover {*/
-    /*text-decoration: none!important;*/
-    /*color: black!important;*/
-/*}*/
-
-/*a.active    {*/
-    /*text-decoration: none!important;*/
-    /*color: black!important;*/
-}
-}
-
-@-webkit-keyframes functionanimation {
-    /*  0% { transform: skewY(4deg); }
-      25% { transform: skewY(-3deg); }
-      50% { transform: skewY(2deg); }
-      75% { transform: skewY(-1deg); }
-      100% { transform: skewY(0deg); }*/
-}
-@keyframes functionanimation {
-    0% { transform: skewY(4deg); }
-    25% { transform: skewY(-3deg); }
-    50% { transform: skewY(2deg); }
-    75% { transform: skewY(-1deg); }
-    100% { transform: skewY(0deg); }
-}
-
-@media (max-width: 1199px) {
-    #bg_wallpaper {
+@media only screen and (max-width: 375px) {
+    .bg_wallpaper {
+        /*height: 180vh;*/
+        min-height: auto;
+    }
+    .func_desc {
+        color: #fff;
+    }
+    .func_desc_under {
+        background-color: #32a095;
+        height: 2px;
+        width: 100px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .func_cols {
+        color: #fff;
+        width: auto;
         height: auto;
+        padding: 2vh;
+        margin-bottom:2vh;
+        background-color: rgba(50, 160, 149, 0.3);
+        text-align: center;
+    }
+    .func_cols:hover, .func_cols:focus, .func_cols:active {
+        background-color: rgba(203, 0, 165, 0.5);
     }
 }
 
-/***********************************
- TU JE KUNIEC STYLÓW DO SEKCJI FUNKCJEEEEE
+@media only screen and (min-width: 376px) and (max-width: 767px) {
+    .bg_wallpaper {
+        /*height: 160vh;*/
+        min-height: auto;
+    }
+    .func_desc {
+        color: #fff;
+    }
+    .func_desc_under {
+        background-color: #32a095;
+        height: 2px;
+        width: 100px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .func_cols {
+        color: #fff;
+        width: auto;
+        height: auto;
+        padding: 2vh;
+        margin-bottom:2vh;
+        background-color: rgba(50, 160, 149, 0.3);
+        text-align: center;
+
+    }
+    .func_cols:hover, .func_cols:focus, .func_cols:active {
+        background-color: rgba(203, 0, 165, 0.5);
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .bg_wallpaper {
+        /*height: 110vh;*/
+        min-height: auto;
+    }
+    .func_desc {
+        color: #fff;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .func_desc_under {
+        background-color: #32a095;
+        height: 2px;
+        width: 100px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .func_cols {
+        color: #fff;
+        width: auto;
+        height: auto;
+        padding: 2vh;
+        margin-bottom:2vh;
+        background-color: rgba(50, 160, 149, 0.3);
+        text-align: center;
+
+    }
+    .func_cols:hover, .func_cols:focus, .func_cols:active {
+        background-color: rgba(203, 0, 165, 0.5);
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .bg_wallpaper {
+        /*height: auto;*/
+        min-height: auto;
+    }
+    .func_desc {
+        color: #fff;
+        padding-left: 15px;
+    }
+    .func_desc_under {
+        background-color: #32a095;
+        height: 2px;
+        width: 100px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .func_cols {
+        color: #fff;
+        width: auto;
+        min-height: auto;
+        padding: 2vh;
+        margin-bottom:2vh;
+        background-color: rgba(50, 160, 149, 0.3);
+        text-align: center;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px transparent;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+
+    .func_cols:hover, .func_cols:focus, .func_cols:active {
+        background-color: rgba(203, 0, 165, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .func_desc {
+        float: left;
+        width: 25%;
+
+    }
+
+    .func_desc h2 {
+        font-size: 4rem;
+        color: #FFFFFF;
+        letter-spacing: .03em;
+        text-align: left;
+    }
+
+    .func_desc_under {
+        background-color: #32a095;
+        height: 2px;
+        width: 135px;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .func_desc p {
+        color: #FFFFFF;
+        width: 50%;
+    }
+
+    .func_cols {
+        color: #fff;
+        width: auto;
+        height: 100%;
+        background-color: rgba(50, 160, 149, 0.3);
+        text-align: center;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px transparent;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+
+    .func_cols:hover, .func_cols:focus, .func_cols:active {
+        background-color: rgba(203, 0, 165, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
