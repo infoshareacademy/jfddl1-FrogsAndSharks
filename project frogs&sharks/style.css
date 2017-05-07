@@ -15,7 +15,7 @@ section {
     transform: rotate(-2deg);
 }
 
-.se-slope{
+.se-slope   {
     margin: 0 -50px;
     padding: 50px 100px 200px 50px;
     -webkit-transform-origin: right bottom;
@@ -23,9 +23,6 @@ section {
     -o-transform-origin: right bottom;
     -ms-transform-origin: right bottom;
     transform-origin: right bottom;
-}
-
-.se-slope:nth-child(even){
     background: #c6d3de;
     -webkit-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
