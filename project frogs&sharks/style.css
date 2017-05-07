@@ -1,6 +1,8 @@
-body {
+html, body {
     font-family: Arial, sans-serif!important;
     overflow-x: hidden;
+    -ms-overflow-x: hidden;
+
 }
 section {
     position: relative;
@@ -9,21 +11,6 @@ section {
     display: block;
     width: 100%;
 }
-
-/*.aboutY {*/
-    /*padding-left: 10vh;*/
-    /*padding-right: 10vh;*/
-    /*padding-bottom: 20vh;*/
-    /*!*position: absolute;*!*/
-    /*background: #283192!important;*/
-    /*margin-right: 50px;*/
-    /*width: 100%;*/
-    /*height: auto;*/
-    /*z-index: 5;*/
-    /*transform-origin: left center;*/
-    /*transform: rotate(-2deg);*/
-/*}*/
-
 .cont_aboutY {
     transform: rotate(-2deg);
 }
@@ -139,7 +126,7 @@ ul.nav.navbar-nav {
 
 .first-section {
     text-align: center;
-    padding-top: 5vh;
+    /*padding-top: 5vh;*/
 }
 
 
