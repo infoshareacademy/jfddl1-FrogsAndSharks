@@ -8,9 +8,11 @@
     color: #000;
 }
 
-.card{
-    margin:
-}
+
+
+
+
+
 
 .img100p{
     width: 100%;
@@ -120,10 +122,11 @@ background: linear-gradient(to right, red , yellow); /* Standard syntax
 .butto .btn{
     background-color: #219f94;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     transition: background 1s;
     color: #ffffff;
     border-radius: 0%;
+    padding: 5% 20%;
 }
 .butto .btn:hover{
     background-color: #ff0000;
