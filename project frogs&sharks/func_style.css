@@ -79,7 +79,18 @@
 #curveDownColor {
     fill: #fff
 }
-
+.func_h1_2 {
+    font-size: 50px;
+    line-height: 70px;
+    text-align: left;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #303030;
+    letter-spacing: 1px;
+}
+.func_h1_2 span {
+    font-size: 37px;
+}
 /*.func_cols {*/
     /*transform: rotate(4deg) ;*/
 /*}*/
