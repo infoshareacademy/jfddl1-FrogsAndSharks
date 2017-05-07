@@ -82,15 +82,31 @@
 .func_h1_2 {
     font-size: 50px;
     line-height: 70px;
-    text-align: left;
+    text-align: center;
     font-weight: 800;
     text-transform: uppercase;
     color: #303030;
     letter-spacing: 1px;
 }
 .func_h1_2 span {
-    font-size: 37px;
+    font-size: 35px;
 }
+
+.func_h2_2 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 60px;
+    color: #303030;
+    letter-spacing: 2px;
+    border-bottom: solid #e98457 auto ;
+}
+.func_h2_2 span {
+    border-bottom: solid #f132cb 2px ;
+}
+
+
 /*.func_cols {*/
     /*transform: rotate(4deg) ;*/
 /*}*/
