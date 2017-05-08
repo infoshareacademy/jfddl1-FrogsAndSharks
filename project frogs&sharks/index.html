@@ -43,18 +43,27 @@
 
     <![endif]-->
 </head>
-<body>
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="image/logo.png" alt="logo" height="100%" width="auto"></a>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="image/logo.png" alt="logo" height="100%" width="auto"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home" class="smooth-slide page-scroll">Główna</a></li>
+                    <li><a href="#about" class="smooth-slide page-scroll">Dlaczego ptrainer?</a></li>
+                    <li><a href="#howitwork" class="smooth-slide page-scroll">Jak to działa?</a></li>
+                    <li><a href="#aboutus" class="smooth-slide page-scroll">O nas</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -67,47 +76,42 @@
     </div>
 </nav>
 <!-- POCZATEK SEKCJI HOME Z KARUZELA ********************************************** -->
-<div id="home">
-    <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel" data-interval="10000">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
 
-        <!-- Tresc karuzeli, obrazki, paragrafy ******** -->
-        <div class="carousel-inner " role="listbox">
-            <div class="item">
-                <img src="image/carousel1.jpg" alt="pic1">
-                <div class="carousel-caption">
-                    <h1>Szukasz wskazówek żywieniowych? <br>Trafiłeś idealnie!</h1>
-                    <img src="image/sep.png">
-                    <p><strong>ptrainer</strong> to aplikacja która pomoże ci w osiągnięciu wymarzonego celu. Zadba o
-                        Twój trening
-                        od strony technicznej, dobierze zestaw ćwiczeń oraz rospisze dietę. Regularne powiadomienia
-                        sprawią, że już nigdy nie
-                        opuścisz treningu.</p>
-                    <a href="#about" id="home-button-left" class="btn btn-primary btn-xl page-scroll">Dowiedz się
-                        więcej</a>
-                    <a href="#form" id="home-button-right" class="btn btn-primary btn-xl page-scroll">Jestem
-                        zainteresowany</a>
+    <div id="home">
+        <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel" data-interval="10000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Tresc karuzeli, obrazki, paragrafy ******** -->
+            <div class="carousel-inner " role="listbox">
+                <div class="item">
+                    <img src="image/carousel1.jpg" alt="pic1">
+                    <div class="carousel-caption">
+                            <h1>Szukasz wskazówek żywieniowych? <br>Trafiłeś idealnie!</h1>
+                            <img src="image/sep.png">
+                            <p><strong>ptrainer</strong> to aplikacja która pomoże ci w osiągnięciu wymarzonego celu. Zadba o Twój trening
+                                od strony technicznej, dobierze zestaw ćwiczeń oraz rospisze dietę. Regularne powiadomienia sprawią, że już nigdy nie
+                                opuścisz treningu.</p>
+                            <a href="#about" id="home-button-left" class="btn btn-primary btn-xl page-scroll smooth-slide">Dowiedz się więcej</a>
+                            <a href="#form" id="home-button-right" class="btn btn-primary btn-xl page-scroll smooth-slide">Jestem zainteresowany</a>
+                    </div>
                 </div>
-            </div>
-            <div class="item active">
-                <img src="image/head-background-2.jpg" alt="pic2">
-                <div class="carousel-caption">
-                    <h1>Chcesz zadbać o swoją kondycję? <br>Trafiłeś idealnie!</h1>
-                    <img src="image/sep.png">
-                    <p><strong>ptrainer</strong> to aplikacja która pomoże ci w osiągnięciu wymarzonego celu. Zadba o
-                        Twój trening
-                        od strony technicznej, dobierze zestaw ćwiczeń oraz rospisze dietę. Regularne powiadomienia
-                        sprawią, że już nigdy nie
-                        opuścisz treningu.</p>
-                    <a href="#about" id="home-button-left" class="btn btn-primary btn-xl page-scroll">Dowiedz się
-                        więcej</a>
-                    <a href="#form" id="home-button-right" class="btn btn-primary btn-xl page-scroll">Jestem
-                        zainteresowany</a>
+                <div class="item active">
+                    <img src="image/head-background-2.jpg" alt="pic2">
+                    <div class="carousel-caption">
+                            <h1>Chcesz zadbać o swoją kondycję? <br>Trafiłeś idealnie!</h1>
+                            <img src="image/sep.png">
+                            <p><strong>ptrainer</strong> to aplikacja która pomoże ci w osiągnięciu wymarzonego celu. Zadba o Twój trening
+                                od strony technicznej, dobierze zestaw ćwiczeń oraz rospisze dietę. Regularne powiadomienia sprawią, że już nigdy nie
+                                opuścisz treningu.</p>
+                            <a href="#about" id="home-button-left" class="btn btn-primary btn-xl page-scroll smooth-slide">Dowiedz się więcej</a>
+                            <a href="#form" id="home-button-right" class="btn btn-primary btn-xl page-scroll smooth-slide">Jestem zainteresowany</a>
+                    </div>
+
                 </div>
             </div>
             <div class="item">
@@ -289,17 +293,19 @@
             </div>
         </div>
     </div>
-</div>
-<div class="allsec">
-    <div class="backg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-xs-12">
-                    <div class="back">
-                        <h1 class="header1">
-                            <br>Zostań supergwiazdą <br>fitnessu!!!
-                        </h1>
-                        <img src="image/sep.png" alt="separator">
+
+    <section id="form">
+    <div class="allsec">
+        <div class="backg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-xs-12">
+                        <div class="back">
+                            <h1 class="header1">
+                                <br>Zostań supergwiazdą <br>fitnessu!!!
+                            </h1>
+                            <img src="image/sep.png" alt="separator">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -343,14 +349,42 @@
             </div>
         </div>
     </div>
-</div>
-<div id="counter">
-    <div class="container  ">
-        <div class="row">
-            <div class="contact-section">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h1>Do premiery naszej aplikacji pozostało:</h1>
-                    <img src="image/sep.png" style="display: inline-block">
+
+    </section>
+    <div id="counter">
+            <div class="container  ">
+                <div class="row">
+                    <div class="contact-section">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h1>Do premiery naszej aplikacji pozostało:</h1>
+                            <img src="image/sep.png" style="display: inline-block">
+                        </div>
+                            <!-- TUTAJ WSTAWIASZ SWÓJ KOD, NIE USTAWIASZ W STYLACH FONT_FAMILY I FONT_SIZE-->
+                        <div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6  col-xs-12 counter" id="countdown">
+                                <div>
+                                    <div id="days"></div>
+                                    <div>Dni</div>
+                                </div>
+                                <div>
+                                    <div id="hours"></div>
+                                    <div>Godzin</div>
+                                </div>
+                                <div>
+                                    <div id="minutes"></div>
+                                    <div>Minut</div>
+                                </div>
+                                <div>
+                                    <div id="seconds"></div>
+                                    <div>Sekund</div>
+                                </div>
+                        </div>
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h1 class="startujemy">Startujemy już 6 czerwca 2017</h1>
+                                <img src="image/sep.png" style="display: inline-block">
+                            </div>
+                    </div>
+
                 </div>
                 <!-- TUTAJ WSTAWIASZ SWÓJ KOD, NIE USTAWIASZ W STYLACH FONT_FAMILY I FONT_SIZE-->
                 <div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6  col-xs-12 counter" id="countdown">
@@ -552,6 +586,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/counter.js"></script>
 <script type="text/javascript" src="js/animate-scroll.js"></script>
+    <script src="js/active-section.js"></script>
 
 <!-- WOW plugin -->
 <script src="js/wow.min.js"></script>
