@@ -1,0 +1,135 @@
+#main {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	background-image: url("img/background2.jpg");
+	margin-right: auto;
+	margin-left: auto;
+    display: none;
+}
+
+#points-container {
+    font-family: Showcard;
+    padding-left: 20px;
+    font-size: 30px;
+    color: #d3a02b;
+    -webkit-text-stroke: 2px #000;
+}
+
+#points {
+    padding-left: 10px;
+
+}
+
+#flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+#lives-container {
+	display: flex;
+	justify-content: center;
+}
+
+.lives {
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+
+#menu {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-image: url("img/menu-background.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+
+#gameOverScreen{
+	position: relative;
+	width: 600px;
+	height: 600px;
+	background-color: #000;
+	color: #d3a02b;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	display: none;
+}
+
+#gameOverScreen h3 {
+	font-family: Showcard;
+	font-size: 50px;
+}
+
+#gameOverScreen p {
+	font-family: Showcard;
+	font-size: 50px;
+	padding-top: 0;
+	padding-bottom: 0;
+	transform: scale(0.9);
+}
+
+#gameOverScreen img{
+	width: 100px;
+	height: 160px;
+}
+
+.menu-list {
+    padding-top: 350px;
+    font-size: 30px;
+}
+
+#play:hover {
+    transform: scale(0.9);
+}
+
+#rank:hover {
+    transform: scale(0.9);
+}
+
+#instructions:hover {
+    transform: scale(0.9);
+}
+
+#player {
+	width: 60px;
+	height: 100px;
+	position: relative;
+	left: 300px;
+	top: 425px;
+
+}
+
+#goodFood {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 35px;
+	height: 35px;
+}
+
+#badFood {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	width: 35px;
+	height: 35px;
+}
+
+
+#ground {
+	margin-top: 420px;
+	width: auto;
+	height: 50px;
+	background-color: #f00;
+	background-image: url("img/ground2.jpg");
+}
+
+@font-face {
+    font-family: Showcard;
+    src:url(fonts/SHOWG.ttf);
+}

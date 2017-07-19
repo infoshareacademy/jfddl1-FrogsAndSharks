@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="game.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="menu">
+	<div class="menu-list">
+		<div id="play"><img src="img/play.png"></div>
+		<div id="rank"><img src="img/scores.png"></div>
+		<div id="instructions"><img src="img/instructions.png"></div>
+	</div>
+</div>
+<div id="main">
+	<div id="flex">
+		<div id="points-container">Punkty:<span id="points">0</span></div>
+		<div id="lives-container">
+			<div><img src="img/health.png" class="lives"></div>
+			<div><img src="img/health.png" class="lives"></div>
+			<div><img src="img/health.png" class="lives"></div>
+		</div>
+	</div>
+	<img src="img/player.png" id="player">
+	<div id="ground"></div>
+</div>
+<div id="gameOverScreen">
+	<h3>Koniec Gry</h3>
+	<img src="img/hit.png">
+	<p id="backToMenu">Menu</p>
+	<p id="playAgain">Jeszcze raz</p>
+</div>
+</body>
+</html>
